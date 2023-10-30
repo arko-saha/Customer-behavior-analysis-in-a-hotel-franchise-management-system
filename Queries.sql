@@ -6,7 +6,7 @@ UNION
 SELECT * FROM dbo.[2020]
 )
 
--- Check the night stays by year
+-- Q1: Is our hotel revenue growing yearly?
 
 SELECT 
 arrival_date_year, 
